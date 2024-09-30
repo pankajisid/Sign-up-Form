@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    display: flex;
+}
+
+
+.nature-image{
+    position: relative;
+    width: 33vw;
+    height: 100vh;
+}
+
+.odin-logo {
+    margin-top: 100px;
+    background-color:rgba(135, 235, 205, 0.1);
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin-image,
+.odin-logo p {
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+}
+
+.odin-logo p {
+    color: white;
+    font-family: "Sofia", sans-serif;
+}
+
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    opacity: 0.4;
+    left: 100px;
+}
+
+.overview {
+    font-family: "Sofia", sans-serif;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main > section {
+    flex-grow: 1;
+}
+
+.first {
+    margin-top: 0;
+    height: 250px;
+    background-color: rgba(28,110,164,0.45);
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+h4 {
+    margin-inline-start: 80px;
+    font-family: "Sofia", sans-serif;
+}
+
+label {
+    font-size: 12px;
+    font-family: "Sofia", sans-serif;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 8px;
+    margin-left: 40px;
+}
+input {
+    width: 200px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.third {
+    padding: 20px;
+    background-color: grey;
+    padding-left: 80px;
+    height: 100px;
+    min-height: 50px;
+}
